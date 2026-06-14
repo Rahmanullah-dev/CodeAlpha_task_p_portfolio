@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahmanullah - Software Engineering Student & Web Developer</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Rahmanullah - Software Engineering Student & Web Developer specializing in modern web solutions. Available for freelance and remote opportunities.">
+    <meta name="author" content="Rahmanullah">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Rahmanullah - Web Developer & Software Engineering Student">
+    <meta property="og:description" content="Professional portfolio showcasing web development projects and skills">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://Rahmanullah-dev.github.io/p_portfolio/images/portfolio-preview.jpg">
+    <meta property="og:url" content="https://github.com/Rahmanullah-dev">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div class="logo">Rahmanullah.</div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle-mobile" id="theme-toggle-mobile">
+            <i class="fas fa-moon"></i> Dark Mode
+        </button>
+    </div>
+
+    <!-- Hero Section with Background Animation -->
+    <section id="home">
+        <div class="hero-bg-animation">
+            <div class="bg-1"></div>
+            <div class="bg-2"></div>
+            <div class="bg-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Rahmanullah</h1>
+                <div class="typing-container">
+                    <span id="typing-text"></span><span class="cursor"></span>
+                </div>
+                <p class="hero-description">Software Engineering Student & Web Developer specializing in modern web solutions. Available for freelance and remote opportunities.</p>
+                
+                <!-- HERO BUTTONS - ORDER: Hire Me | View Projects | View CV | Download CV -->
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Hire Me
+                    </a>
+                    <a href="#projects" class="btn btn-outline">
+                        <i class="fas fa-eye"></i> View Projects
+                    </a>
+                    <a href="cv.html" class="btn btn-outline">
+                        <i class="fas fa-file-alt"></i> View CV
+                    </a>
+                    <a href="cv/Rahmanullah - CV.pdf" class="btn btn-outline" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+                
+                <!-- Professional Social Links -->
+                <div class="social-links">
+                    <a href="https://github.com/Rahmanullah-dev" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rahman-ullah-474897392/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://wa.me/923061620033" target="_blank" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="image-glow"></div>
+                    <img src="images/profile.jpg" alt="Rahmanullah Profile" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span>Me</span></h2>
+                <div class="section-line"></div>
+                <p>Software Engineering Student | Web Developer | Python Learner</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3><i class="fas fa-heart"></i> About Me</h3>
+                    <p>I am Rahmanullah, a Software Engineering student with a strong interest in 
+                        web development and software engineering. I enjoy building modern, 
+                        responsive, and user-friendly websites using HTML, CSS, JavaScript,
+                         Bootstrap(basic), PHP(basic), and PostgreSQL.
+                        Currently, I am improving my backend development and Python skills 
+                        while working on practical projects to gain real-world experience. 
+                        I am passionate about learning new technologies and continuously 
+                        improving my problem-solving abilities.</p>
+                    <h3><i class="fas fa-bullseye"></i> Mission</h3>
+                    <p>My mission is to become a skilled Software Engineer and Full Stack Web Developer 
+                        who creates useful digital solutions for people and businesses. I aim to continuously 
+                        learn new technologies, work on meaningful projects, and contribute to the technology 
+                        industry while helping clients achieve their goals through high-quality web solutions.</p>
+                </div>
+                <div class="education-timeline">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-number">1</div>
+                        <h4>Bachelor of Software Engineering</h4>
+                        <p class="institution">University of Abasyn</p>
+                        <p class="duration">2024 - Present</p>
+                        <p class="description">Studying software engineering with a focus on programming, web development, 
+                            database systems, software design, and modern development practices.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">2</div>
+                        <h4>Web Development & Programming Training</h4>
+                        <p class="institution">USECS Institute</p>
+                        <p class="duration">2021 - 202</p>
+                        <p class="description">Learning and practicing HTML, CSS, JavaScript, Bootstrap, PHP(basic), PostgreSQL, Python, Git, GitHub,
+                             and modern web development technologies through projects and continuous study.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical <span>Skills</span></h2>
+                <div class="section-line"></div>
+                <p>Technologies and tools I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header"><i class="fab fa-html5"></i><h3>HTML5</h3></div>
+                    <div class="skill-progress"><div class="progress-bar" style="width: 95%"></div></div>
+                    <div class="skill-percent">95%</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header"><i class="fab fa-css3-alt"></i><h3>CSS3</h3></div>
+                    <div class="skill-progress"><div class="progress-bar" style="width: 90%"></div></div>
+                    <div class="skill-percent">90%</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+                    <div class="skill-progress"><div class="progress-bar" style="width: 85%"></div></div>
+                    <div class="skill-percent">85%</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header"><i class="fab fa-bootstrap"></i><h3>Bootstrap</h3></div>
+                    <div class="skill-progress"><div class="progress-bar" style="width: 88%"></div></div>
+                    <div class="skill-percent">70%</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header"><i class="fab fa-php"></i><h3>PHP</h3></div>
+                    <div class="skill-progress"><div class="progress-bar" style="width: 75%"></div></div>
+                    <div class="skill-percent">55%</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header"><i class="fas fa-database"></i><h3>PostgreSQL</h3></div>
+                    <div class="skill-progress"><div class="progress-bar" style="width: 72%"></div></div>
+                    <div class="skill-percent">72%</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header"><i class="fab fa-python"></i><h3>Python</h3></div>
+                    <div class="skill-progress"><div class="progress-bar" style="width: 70%"></div></div>
+                    <div class="skill-percent">70%</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header"><i class="fab fa-github"></i><h3>Git & GitHub</h3></div>
+                    <div class="skill-progress"><div class="progress-bar" style="width: 85%"></div></div>
+                    <div class="skill-percent">85%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>My <span>Services</span></h2>
+                <div class="section-line"></div>
+                <p>Professional web development services tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive and interactive user interfaces using modern HTML, CSS, and JavaScript.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Responsive Design</h3>
+                    <p>Mobile-first responsive designs that look perfect on all devices and screen sizes.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-bug"></i></div>
+                    <h3>Bug Fixing</h3>
+                    <p>Quick and efficient debugging and fixing of existing website issues.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Portfolio & Business Sites</h3>
+                    <p>Professional portfolio and business websites that convert visitors into clients.</p>
+                    <div class="service-hover-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>My <span>Projects</span></h2>
+                <div class="section-line"></div>
+                <p>A collection of my frontend development projects</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Calculator App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?w=600&h=400&fit=crop" alt="Calculator App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Calculator App</h3>
+                        <p>A fully functional calculator with modern UI, supporting basic arithmetic operations, keyboard support, and responsive design.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Gallery -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?w=600&h=400&fit=crop" alt="Portfolio Gallery">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Gallery</h3>
+                        <p>Creative portfolio gallery showcasing work with filterable categories, lightbox preview, and smooth animations.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amazon Clone -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?w=600&h=400&fit=crop" alt="Amazon Clone">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Amazon Clone</h3>
+                        <p>Frontend clone of Amazon's homepage with product cards, shopping cart UI, search functionality, and responsive layout.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In <span>Touch</span></h2>
+                <div class="section-line"></div>
+                <p>Have a project in mind? Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <a href="mailto:rahmanullah.dev@example.com">amankhan039616@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fas fa-phone"></i></div>
+                            <h4>Phone</h4>
+                            <p>+93 3061620033</p>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fab fa-whatsapp"></i></div>
+                            <h4>WhatsApp</h4>
+                               <a href="https://wa.me/923061620033" 
+                               target="_blank">Message on WhatsApp</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fab fa-github"></i></div>
+                            <h4>GitHub</h4>
+                             <a href="https://github.com/Rahmanullah-dev" 
+                             target="_blank">github.com/Rahmanullah-dev</a>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon"><i class="fab fa-linkedin-in"></i></div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/rahman-ullah-474897392" 
+                             target="_blank">View My LinkedIn</a>
+                        </div>
+                    </div>
+                    <div class="social-links-large">
+                        <a href="https://github.com/Rahmanullah-dev"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rahman-ullah-474897392"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/923061620033"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Email</label>
+                            <input type="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Your Message</label>
+                            <textarea placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Rahmanullah.</h3>
+                    <p>Passionate software engineering student crafting beautiful and functional web experiences.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Rahmanullah-dev"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rahman-ullah-474897392"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/923061620033"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:rahmanullah.dev@example.com">rahmanullah.dev@example.com</a></p>
+                    <p><i class="fas fa-phone"></i> +93 3061620033</p>
+                    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/923061620033">WhatsApp</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Rahmanullah. Made with <i class="fas fa-heart"></i> for the web</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
