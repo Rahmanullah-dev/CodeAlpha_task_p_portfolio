@@ -7,7 +7,7 @@
 
 ## 🌟 Live Demo
 
-**View my portfolio:** [https://Rahmanullah-dev.github.io/p_portfolio/](https://Rahmanullah-dev.github.io/p_portfolio/)
+**View my portfolio:** https://rahmanullah-dev.github.io/CodeAlpha_task_p_portfolio/
 
 ## 📋 About This Project
 
